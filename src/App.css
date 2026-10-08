@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+.app {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+.form-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+}
+
+.form-section h2 {
+    color: #374151;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.submit-button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #1d4ed8;
+}
+
+
+.student-section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-buttons button {
+    padding: 9px 15px;
+    border: 1px solid #d1d5db;
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    background-color: #eff6ff;
+}
+
+.filter-buttons button.active {
+    background-color: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tbody tr:hover {
+    background-color: #eff6ff;
+}
+
+.delete-button {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #b91c1c;
+}
+
+
+.statistics {
+    margin-top: 25px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.statistics p {
+    font-size: 17px;
+}
+
+.statistics strong {
+    color: #2563eb;
+}
+
+.empty-message {
+    text-align: center;
+    color: #6b7280;
+    padding: 20px;
+}
